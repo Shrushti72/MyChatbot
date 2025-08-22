@@ -10,7 +10,7 @@ from diffusers import StableDiffusionPipeline
 import torch
 
 # -------------------- CONFIG --------------------
-API_KEY = "AIzaSyBWy7E1M7eVteJiQUicASczICnhzSAgfnE"  # Gemini API key
+API_KEY = "YOUR_API_KEY"  # Gemini API key
 genai.configure(api_key=API_KEY)
 MODEL_NAME = "gemini-1.5-flash"
 
